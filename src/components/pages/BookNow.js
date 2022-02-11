@@ -20,7 +20,7 @@ const BookNow = ()=> {
     const bookSubmit=(event) => {
         event.preventDefault();
         axios.post(
-            'http://localhost:3003/addPreference',
+            'http://schotrix.herokuapp.com/addPreference',
             data
         )
         .then(

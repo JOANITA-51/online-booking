@@ -8,7 +8,7 @@ const Submit=()=>{
     const {id} = useParams();
     const [item, setItem] = useState({});
  
-    axios.get(`http://localhost:3003/submitPreference/${id}`)
+    axios.get(`http://schotrix.herokuapp.com/submitPreference/${id}`)
         .then(({data})=> {
             setItem(data)
             /*console.log(Object.entries(data).filter(person=>person._id===id))
