@@ -1,0 +1,43 @@
+.log-in,
+.sign-up{
+    background-color: #03035B;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main-container{
+    background-color: #fff;
+    height:90%;
+    width: 80%;
+}
+
+.position-relative{
+    z-index: 5;
+}
+
+Form{
+    width :90%;
+}
+
+#LogIn{
+    
+    background-color: #FFC629;
+}
+
+#floatingInput,#floatingPassword, #floatingInputGrid, #floatingSelect{
+    background-color: #C4C4C4;
+}
+
+.booking {
+    background-color: #FFC629;
+    color: #fff; 
+    width: 30%;
+}
+
+Table{
+    width : 100%
+}
+
+.table>:not(:first-child){
+    border-top: 0px solid currentColor;
+}
