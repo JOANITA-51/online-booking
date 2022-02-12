@@ -54,7 +54,7 @@ const SignUp=()=> {
     console.log(JSON.stringify(data, null, 4))
     event.preventDefault()
 
-    axios.post('http://schotrix.herokuapp.com/register',details)
+    axios.post('https://schotrix.herokuapp.com/register',details)
       .then(response=>console.log(response.data))
       .catch(error => console.log(error))
 

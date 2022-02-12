@@ -8,7 +8,7 @@ const Users = () => {
     
     const [users, setUsers] = useState([]);
     
-    axios.get('http://schotrix.herokuapp.com/')
+    axios.get('https://schotrix.herokuapp.com/')
         .then(({data})=> {
             //console.log({data})
             const details = data.map((user) =>{
