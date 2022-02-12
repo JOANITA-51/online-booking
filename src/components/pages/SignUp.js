@@ -110,7 +110,7 @@ const SignUp=()=> {
               
             </Form.Group>
 
-            <FloatingLabel controlId="floatingPassword" label="Confirm Password (The passwords should match)" className='ms-5 mb-4 fs-5' >
+            <FloatingLabel controlId="floatingPassword" label="Confirm Password" className='ms-5 mb-4 fs-5' >
               <Form.Control type="password" name=" passwordConfirm" {...register('passwordConfirm')}   className={`form-control ${ errors.passwordConfirm ? 'is-invalid' : ''}`}/>
             </FloatingLabel>
             <div className="invalid-feedback"> {errors.passwordConfirm?.message}</div>
@@ -120,8 +120,8 @@ const SignUp=()=> {
               <Form.Check  required name="term"  label='I accept the' /><Link className='me-2 ms-2' to = '/'>Terms Of Use </Link> and <Link className='ms-2' to = '/'> Privacy Policy </Link>
               
             </Form.Group>
-             
-            <Button type='submit' className='ms-5 mb-3' id='SignUp' size='lg' >  Sign Up </Button>
+            <Link  to = '/book-now'><Button type='submit' className='ms-5 mb-3' id='SignUp' size='lg' >  Sign Up </Button> </Link>
+            
           </Form>
 
           

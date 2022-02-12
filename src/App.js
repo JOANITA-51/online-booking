@@ -29,7 +29,7 @@ function App() {
           <Route path="/submit/:id" element={<Submit/>} />
           <Route path="/edit/:id" elementt={<EditBookNow/>}  />
           <Route path="/list" element={<BookNowList/>} />
-          <Route path="/users" element={<Users/>}/>
+          <Route path="/users-list" element={<Users/>}/>
           
         </Routes>
       </Router>
