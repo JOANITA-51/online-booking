@@ -58,7 +58,7 @@ const SignUp=()=> {
       .then(response=>console.log(response.data))
       .catch(error => console.log(error))
 
-      navigate.push('/book-now')
+      navigate('/book-now')
     
   }
 
@@ -120,7 +120,7 @@ const SignUp=()=> {
               <Form.Check  required name="term"  label='I accept the' /><Link className='me-2 ms-2' to = '/'>Terms Of Use </Link> and <Link className='ms-2' to = '/'> Privacy Policy </Link>
               
             </Form.Group>
-            <Link  to = '/book-now'><Button type='submit' className='ms-5 mb-3' id='SignUp' size='lg' >  Sign Up </Button> </Link>
+            <Button type='submit' className='ms-5 mb-3' id='SignUp' size='lg' >  Sign Up </Button> 
             
           </Form>
 

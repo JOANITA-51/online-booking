@@ -25,7 +25,7 @@ const BookNow = ()=> {
         )
         .then(
             (response)=>{
-                console.log(response)
+                //console.log(response)
                 setResdata(response.data)
                                 
             }
