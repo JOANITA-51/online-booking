@@ -12,6 +12,7 @@ import Submit from './components/pages/Submit'
 import EditBookNow from './components/pages/EditBookNow';
 import BookNowList from './components/pages/BookNowList';
 import Users from './components/pages/Users';
+import Success from './components/pages/Success'
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
           <Route path="/edit/:id" elementt={<EditBookNow/>}  />
           <Route path="/list" element={<BookNowList/>} />
           <Route path="/users-list" element={<Users/>}/>
-          
+          <Route path="/success" element={<Success/>}/>
         </Routes>
       </Router>
      

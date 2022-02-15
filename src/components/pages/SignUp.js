@@ -58,7 +58,7 @@ const SignUp=()=> {
       .then(response=>console.log(response.data))
       .catch(error => console.log(error))
 
-      navigate('/book-now')
+      navigate('/success')
     
   }
 
