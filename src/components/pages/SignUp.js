@@ -47,7 +47,7 @@ const SignUp=()=> {
   })
 
   const validationOpt = {resolver: yupResolver(formSchema)}
-  const {register,handleSubmit,formState}=useForm(validationOpt)
+  const {register, handleSubmit, formState} = useForm(validationOpt)
   const {errors} = formState
 
   function onFormSubmit(data, event){
@@ -66,7 +66,7 @@ const SignUp=()=> {
     <div className='sign-up d-grid'>
       <Formik>
    
-          <Container id='main-container' className=' mt-5' >
+        <Container id='main-container' className=' mt-5' >
           <h2 className='mb-4 mt-4 ms-4 fs-1'>Sign UP</h2>
           <h5 className='ms-4 fw-normal' >Please fill in this form to create an account</h5>
           <hr  />
@@ -123,11 +123,10 @@ const SignUp=()=> {
             <Button type='submit' className='ms-5 mb-3' id='SignUp' size='lg' >  Sign Up </Button> 
             
           </Form>
-
-          
+                  
         </Container>
-             
-       
+         
+      
       </Formik>      
     </div>
   );
