@@ -7,8 +7,8 @@ const Success = () => {
   return (
     <Container>
      <Alert variant="success">You have Successfully registered</Alert>
-     <Link to="/book-now" id='login'><Button >Book Now</Button></Link> 
-     <Link to="/log-in" id='login'><Button  className='ms-5'>Log In</Button></Link> 
+     <Link to="/book-now" id='login'><Button variant="warning" >Book Now</Button></Link> 
+     <Link to="/log-in" id='login'><Button  className='ms-5' variant="warning">Log In</Button></Link> 
      
     </Container>
   )

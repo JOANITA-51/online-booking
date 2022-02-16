@@ -54,8 +54,8 @@ const Submit=()=>{
                 
 
                 <Link to="/log-in"> <Button variant="success">Confirm Booking</Button> </Link>{' '}
-                <Link to="/book-now"> <Button variant="warning">Edit Booking</Button> </Link>{' '}
-                <Link to="/log-in"> <Button variant="warning">Set Reminder</Button> </Link>{' '} 
+                <Link to="/book-now"> <Button variant="warning" className='ms-5'>Edit Booking</Button> </Link>{' '}
+                <Link to="/log-in"> <Button variant="warning" className='ms-5'>Set Reminder</Button> </Link>{' '} 
             </Container>
             
         </div>
