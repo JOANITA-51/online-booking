@@ -13,7 +13,7 @@ import EditBookNow from './components/pages/EditBookNow';
 import BookNowList from './components/pages/BookNowList';
 import Users from './components/pages/Users';
 import Success from './components/pages/Success'
-import Success2 from './components/pages/success2';
+import Success2 from './components/pages/Success2';
 
 function App() {
   return (

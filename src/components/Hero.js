@@ -11,7 +11,7 @@ const Hero = () => {
             </Link>
             <h5>
                 Already have an account?
-                <Link to='/login'>Login here</Link> 
+                <Link to='/log-in'>Login here</Link> 
             </h5>
             
            
