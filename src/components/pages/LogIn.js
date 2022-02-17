@@ -14,7 +14,7 @@ function Login() {
         axios.post('https://schotrix.herokuapp.com/login',profile)
         .then(response=>console.log(response.data))
         .catch(error =>setErrorMessage(error))
-
+        navigate('/successful')
     }
     
     
