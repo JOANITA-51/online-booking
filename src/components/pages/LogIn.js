@@ -22,11 +22,11 @@ function Login() {
     return (
         <div className='log-in d-grid'>
             {errorMessage && (  <p className="error"> {errorMessage} </p>)}
-            <Container id='main-container' className='mt-5' >
+            <Container id='main-container' className='mt-5'  >
                 <h2 className='mb-4 mt-4 ms-5 fs-1'>Log In</h2>
                 <h5 className='ms-5 fw-normal' >Please Log in </h5>
                 <hr  />
-                <Form className='d-grid text-center' onSubmit = {handleSubmit} >
+                <Form  onSubmit = {handleSubmit} >
                 <FloatingLabel controlId="floatingInput"  label="Email address"  className="mb-3 ms-5 fs-5" >
                     <Form.Control type="email" name='email' placeholder="name@example.com" onChange={event=>{setProfile({...profile, email:event.target.value})}} required />
                 </FloatingLabel>

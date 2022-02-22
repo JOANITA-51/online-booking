@@ -17,8 +17,7 @@ import Success2 from './components/pages/Success2';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
         <NavBar title = 'chotrix'/>
         <Routes>
          
@@ -35,10 +34,8 @@ function App() {
           <Route path="/success" element={<Success/>}/>
           <Route path='/successful' element={<Success2/>} />
         </Routes>
-      </Router>
-     
-                
-    </div>
+    </Router>
+
   );
 }
 
