@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className="hero-container">
             <h1>The simpler way to make a school appointment</h1>
-            <Link to="/sign-up" >
+            <Link to="/book-now" >
                 <Button id="BookNow2" variant="outline-light" size="lg">Get Started Booking</Button>
             </Link>
             <h5>
